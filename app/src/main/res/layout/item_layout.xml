@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <TextView
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_stars"
+        android:gravity="right"
+        tools:ignore="RtlHardcoded" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/mImgPhoto"
+            android:layout_width="150dp"
+            android:layout_height="200dp" />
+
+        <LinearLayout
+            android:layout_width="179dp"
+            android:layout_height="202dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mTvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_cart"
+                android:drawableLeft="@drawable/ic_cart"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/mTvPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_phone"
+                android:drawableLeft="@drawable/ic_phone"
+                android:paddingRight="20dp"
+                android:text="TextView"
+                android:textColor="#184342"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/mTvLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_location"
+                android:drawableLeft="@drawable/ic_location"
+                android:paddingRight="20dp"
+                android:text="TextView"
+                android:textColor="#184342"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/mTvPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingRight="10dp"
+                android:text="TextView"
+                android:textColor="#1A5A0F"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "718710133",
+    "project_id": "my-fabrics-sale-app",
+    "storage_bucket": "my-fabrics-sale-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718710133:android:cb1ee4d77ec328a7c21f3c",
+        "android_client_info": {
+          "package_name": "com.example.myfabricsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718710133-m73l20q3no7sppff7ajt8l183qj2eipl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChM91jjF1jXeXpyf0IqlV_dHoGlj8bMeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718710133-m73l20q3no7sppff7ajt8l183qj2eipl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

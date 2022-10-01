@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SellActivity">
+
+    <EditText
+        android:id="@+id/mEdtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:ems="10"
+        android:hint="Enter Price"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="Shs."
+        app:layout_constraintBottom_toTopOf="@+id/mBtnSave_Add"
+        app:layout_constraintEnd_toEndOf="@+id/mEdtLocation"
+        app:layout_constraintStart_toStartOf="@+id/mEdtLocation"
+        app:layout_constraintTop_toBottomOf="@+id/mEdtPhoneNumber" />
+
+    <EditText
+        android:id="@+id/mEdtPName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:ems="15"
+        android:hint="Enter Fabric Description"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/mEdtLocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_save" />
+
+    <EditText
+        android:id="@+id/mEdtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:ems="10"
+        android:hint="Enter Location"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/mEdtPhoneNumber"
+        app:layout_constraintStart_toStartOf="@+id/mEdtPName"
+        app:layout_constraintTop_toBottomOf="@+id/mEdtPName" />
+
+    <Button
+        android:id="@+id/mBtnSave_Add"
+        android:layout_width="96dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="71dp"
+        android:text="UPLOAD"
+
+        app:backgroundTint="#0B2E33"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/mEdtPrice"
+        app:layout_constraintTop_toBottomOf="@+id/mEdtPrice" />
+
+    <ImageView
+        android:id="@+id/img_save"
+        android:layout_width="165dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/mEdtPName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <EditText
+        android:id="@+id/mEdtPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginBottom="42dp"
+        android:ems="10"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:text="+254 "
+        app:layout_constraintBottom_toTopOf="@+id/mEdtPrice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mEdtLocation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
